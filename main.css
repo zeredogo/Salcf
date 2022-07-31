@@ -1,3 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.nav-bg{
+    background: rgba(180, 125, 7, 0.6);
+}
+
+.navbar-nav .nav-link{
+    color: #fff !important; 
+}
+.navbar-toggler{
+    outline: none !important;
 }
