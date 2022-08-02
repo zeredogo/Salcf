@@ -32,10 +32,11 @@ body {
     position: absolute;
     left: 50%;
     top: 0;
-    width: 130;
+    width: 130%;
     height: 95%;
     background: linear-gradient(to right, rgba(180, 125, 7, 0.6), rgba(20, 54, 1, 
-    0.4)),url('images/charity.jpg')center top no-repeat;
+    0.4)),
+    url('images/charity.jpg') center top no-repeat;
     z-index: 0;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
@@ -90,8 +91,22 @@ body {
     font-size: 48px;
     line-height: 1;
     width: auto;
-    height: auto;
-    
+    height: auto;  
+}
+
+#hero .hero-btn{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    animation-delay: 0.5s;
+    border: 2px solid #9ef596;
 }
 
 /*---End Hero---*/
