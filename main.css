@@ -38,7 +38,7 @@ body {
     0.4)),
     url('images/charity.jpg') center top no-repeat;
     z-index: 0;
-    border-radius: 0 0 50% 50%;
+    border-radius: 0 0 50% 50%; 
     transform: translateX(-50%) rotate(0deg);
 }
 
@@ -82,11 +82,13 @@ body {
     color: #fff;
 }
 
-#hero .carousel-control-prev, #hero .carousel-control-next{
+#hero .carousel-control-prev, 
+#hero .carousel-control-next{
     width: 10%;
 }
 
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon{
+#hero .carousel-control-next-icon, 
+#hero .carousel-control-prev-icon{
     background: none;
     font-size: 48px;
     line-height: 1;
@@ -106,7 +108,59 @@ body {
     margin: 10px;
     color: #fff;
     animation-delay: 0.5s;
-    border: 2px solid #9ef596;
+    border: 2px solid #f8dd91;
+}
+
+#hero .hero-btn:hover{
+    background: rgb(94, 77, 4);
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(min-width:1024px){
+    #hero p{
+        width: 60%;
+    }
+    #hero .carousel-control-prev,
+    #hero .carousel-control-next{
+        width: 5%;
+    }
+}
+@media(max-width:768px){
+    #hero h2{
+        font-size: 28px;
+    }
+    #hero:after{
+        width: 180%;
+        height: 95%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%)rotate(0deg);
+    }
+    #hero::before{
+        top: 0;
+        width: 180%;
+        height: 94%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%)translateY(20px)rotate(4deg);
+    }
+}
+@media(max-width:575px){
+   #hero:after{
+    left: 40%;
+    top: 0;
+    width: 200%;
+    height: 95%;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%)rotate(0deg);
+   }
+   #hero::before{
+    left: 50%;
+    top: 0;
+    width: 200%;
+    height: 94%;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%)translateY(20px)rotate(0deg);
+   }
 }
 
 /*---End Hero---*/
