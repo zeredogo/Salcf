@@ -377,7 +377,7 @@ body {
 }
 @media (max-width: 992px){
     .team .team-1{
-        margin-bottom: 100px #b47d0799;
+        margin-bottom: 100px ;
     }
 }
 /*-----End of Team Section------*/
@@ -393,7 +393,7 @@ body {
     display: flex;
     height: 100%;
     width: 100%;
-    background: rgb(33, 37, 41, 0.2);
+    background-color: rgba(1, 39, 13, 0.2);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -410,5 +410,31 @@ body {
 .project-item .text .des p{
     font-weight: light;
     font-size: 20px;
+}
+@media(min-width:992px){
+    .project-item{
+        max-width: none;
+        margin: 0;
+    }
+    .project-item .text{
+        transition: clip-path 0.25s ease-out, background-color 0.7s;
+        clip-path: inset(0px);
+    }
+    .project-item .text .des{
+        transition: opacity 0.25s;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 80px;
+    }
+    .project-item img{
+        transition: clip-path 0.25s ease-out;
+        clip-path: inset(-1px);
+    }
+    .project-item:hover img{
+        clip-path: inset(32px);
+    }
+    .project-item:hover .text{
+        background-color: #8f6306a3;
+    }
 }
 /*===End of Finished Project===*/
