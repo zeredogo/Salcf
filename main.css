@@ -377,8 +377,38 @@ body {
 }
 @media (max-width: 992px){
     .team .team-1{
-        margin-bottom: 100px;
+        margin-bottom: 100px #b47d0799;
     }
 }
-#b47d0799
 /*-----End of Team Section------*/
+/*===Finished Project===*/
+.project-item{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 16px;
+}
+.project-item .text{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: rgb(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.project-item .text .des{
+    color: #fff;
+    margin: auto 32px 32px;
+}
+.project-item .text .des h2{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.project-item .text .des p{
+    font-weight: light;
+    font-size: 20px;
+}
+/*===End of Finished Project===*/
