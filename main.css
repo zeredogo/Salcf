@@ -486,6 +486,11 @@ body {
         margin-top: 15px;
     }
 }
+.donation-form .amount .need .select h5{
+    font-size: 16px;
+    color: #7a7b7c;
+    margin-bottom: 0;
+}
 .donation-form .amount .need .fund label{
     font-size: 16px;
     font-weight: 400;
