@@ -516,3 +516,47 @@ body {
     color: #000;
 }
 /*===End of Donation Section===*/
+.footer{
+    background: linear-gradient(#7a7b7c, #8f6306a3);
+    padding: 0 0 30px 0;
+    color: #000;
+    font-size: 15px;
+}
+.footer .footer-top{
+    padding: 50px 0 30px 0;
+}
+.footer .footer-top .footer-des{
+    margin-top: -90px;
+    margin-bottom: 15px;
+    background: #8f6306a3;
+    color: #fff;
+    border-top: 4px solid #e2cc9ec2;
+    text-align: center;
+    padding: 30px 20px;
+}
+.footer .footer-top .footer-des h3{
+    font-size: 24px;
+    margin: 0 0 2px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: bold;
+}
+.footer .footer-top .footer-des p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.footer .footer-top .social-links a{
+    font-size: 18px;
+    display: inline-block;
+    background: #e2cc9ec2;
+    color: #000;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
