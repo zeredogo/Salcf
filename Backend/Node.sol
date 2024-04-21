@@ -3,5 +3,5 @@ pragma solidity ^0.8.3;
 
 contract Node{
     string Name = '';
-    uint
+    uint2
 }
