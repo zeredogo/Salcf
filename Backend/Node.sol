@@ -2,6 +2,6 @@
 pragma solidity ^0.8.3;
 
 contract Node{
-    string Name
+    string Name;
     uint256 Pri
 }
