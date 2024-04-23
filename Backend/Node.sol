@@ -2,7 +2,7 @@
 pragma solidity ^0.8.3;
 
 contract Node{
-    string pu Name;
+    string pub Name;
     uint256 Price;
     address Sender; 
 }
