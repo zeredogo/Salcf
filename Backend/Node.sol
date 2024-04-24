@@ -3,6 +3,6 @@ pragma solidity ^0.8.3;
 
 contract Node{
     string public Name;
-    uint256 publi Price;
+    uint256 public Price;
     address Sender; 
 }
