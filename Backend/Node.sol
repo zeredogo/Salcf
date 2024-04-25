@@ -5,4 +5,6 @@ contract Node{
     string public Name;
     uint256 public Price;
     address public Sender; 
+
+    f
 }
