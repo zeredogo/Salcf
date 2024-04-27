@@ -6,5 +6,5 @@ contract Node{
     uint256 public Price;
     address public Sender; 
 
-    function getName(string memory _n)
+    function getName(string memory _na)
 }
