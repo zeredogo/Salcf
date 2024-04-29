@@ -7,6 +7,6 @@ contract Node{
     address public Sender; 
 
     function getName(string memory _name) public view returns{
-        return _name = "John D";
+        return _name = "John Do";
     } 
 }
