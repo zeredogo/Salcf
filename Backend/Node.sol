@@ -10,5 +10,7 @@ contract Node{
         return _name = "SALCF";
     } 
 
-    function getPrice(uint256 _price) public view 
+    function getPrice(uint256 _price) public view returns{
+        return 
+    }
 }
