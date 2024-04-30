@@ -11,6 +11,6 @@ contract Node{
     } 
 
     function getPrice(uint256 _price) public view returns{
-        return 
+        return _price = 0.000545400 eth;
     }
 }
