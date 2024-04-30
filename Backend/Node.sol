@@ -10,5 +10,5 @@ contract Node{
         return _name = "SALCF";
     } 
 
-    function getPrice
+    function getPrice()
 }
