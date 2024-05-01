@@ -15,6 +15,6 @@ contract Node{
     }
 
     function getSender(address _sender) public view returns{
-        return
+        return _sender =
     } 
 }
