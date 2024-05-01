@@ -14,5 +14,5 @@ contract Node{
         return _price = 0.000545400 eth;
     }
 
-    fun
+    function get
 }
