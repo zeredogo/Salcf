@@ -7,10 +7,12 @@ contract Node{
     address public Sender; 
 
     function getName(string memory _name) public view returns{
-        return _name = "SALCF";
+        return _name = 'salcf';
     } 
 
     function getPrice(uint256 _price) public view returns{
         return _price = 0.000545400 eth;
     }
+
+    fu
 }
