@@ -14,5 +14,5 @@ contract Node{
         return _price = 0.000545400 eth;
     }
 
-    function getSender(address _sender) public view 
+    function getSender(address _sender) public view returns{} 
 }
