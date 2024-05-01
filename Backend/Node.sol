@@ -11,10 +11,10 @@ contract Node{
     } 
 
     function getPrice(uint256 _price) public view returns{
-        return _price = 0.000545400 eth;
+        return _price = ;
     }
 
     function getSender(address _sender) public view returns{
-        return _sender =
+        return _sender = msg.sender
     } 
 }
