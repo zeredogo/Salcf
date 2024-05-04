@@ -6,5 +6,7 @@ contract Transaction {
     uint256 transactionCounter;
 
     event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp, string keyword);
-    struct TransferStruct
+    struct TransferStruct{
+        a
+    }
 }
