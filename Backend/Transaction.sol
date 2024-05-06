@@ -9,6 +9,6 @@ contract Transaction {
     struct TransferStruct{
         address sender;
         address receiver;
-        uint am
+        uint amo
     }
 }
