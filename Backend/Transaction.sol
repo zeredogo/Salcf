@@ -10,6 +10,6 @@ contract Transaction {
         address sender;
         address receiver;
         uint amount;
-        string messag
+        string message
     }
 }
