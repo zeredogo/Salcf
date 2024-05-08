@@ -11,5 +11,6 @@ contract Transaction {
         address receiver;
         uint amount;
         string message;
+        u
     }
 }
