@@ -11,6 +11,6 @@ contract Transaction {
         address receiver;
         uint amount;
         string message;
-        uint256 time
+        uint256 times
     }
 }
