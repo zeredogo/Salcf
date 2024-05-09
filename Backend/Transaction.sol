@@ -11,6 +11,6 @@ contract Transaction {
         address receiver;
         uint amount;
         string message;
-        uint256 timestamp
+        uint256 timestamp;
     }
 }
