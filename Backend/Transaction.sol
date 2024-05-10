@@ -12,6 +12,6 @@ contract Transaction {
         uint amount;
         string message;
         uint256 timestamp;
-        string keyword
+        string keyword;
     }
 }
