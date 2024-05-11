@@ -15,5 +15,5 @@ contract Transaction {
         string keyword;
     }
 
-    TransferStruct
+    TransferStruct[]
 }
