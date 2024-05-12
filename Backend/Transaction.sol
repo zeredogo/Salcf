@@ -17,6 +17,6 @@ contract Transaction {
 
     TransferStruct[] transactions;
 
-    functi
+    functio
 
 }
