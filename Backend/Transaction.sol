@@ -17,6 +17,6 @@ contract Transaction {
 
     TransferStruct[] transactions;
 
-    function addToBlockchai
+    function addToBlockchain
 
 }
