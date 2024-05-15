@@ -19,5 +19,6 @@ contract Transaction {
 
     function addToBlockchain() public {}
     function addToBlockchain() public {}
+    function addToBlockchain() public {}
 
 }
