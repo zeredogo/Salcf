@@ -17,8 +17,11 @@ contract Transaction {
 
     TransferStruct[] transactions;
 
-    function addToBlockchain() public {}
-    function addToBlockchain() public {}
+    function addToBlockchain() public {
+
+    }
+
+    function g() public {}
     function addToBlockchain() public {}
 
 }
