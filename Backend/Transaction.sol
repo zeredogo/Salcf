@@ -21,7 +21,7 @@ contract Transaction {
 
     }
 
-    function g() public {}
+    function ge() public {}
     function addToBlockchain() public {}
 
 }
