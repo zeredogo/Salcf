@@ -24,6 +24,6 @@ contract Transaction {
     function getAllTransaction() public view returns (TransferStruct[] memory) {
         // return transactions:
     }
-    function addToBlockchain() public {}
+    function get() public {}
 
 }
