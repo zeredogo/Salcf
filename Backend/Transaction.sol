@@ -21,7 +21,7 @@ contract Transaction {
 
     }
 
-    function getAllTransacti() public {}
+    function getAllTransaction() public {}
     function addToBlockchain() public {}
 
 }
