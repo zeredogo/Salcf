@@ -24,6 +24,8 @@ contract Transaction {
     function getAllTransaction() public view returns (TransferStruct[] memory) {
         // return transactions:
     }
-    function getTransactionCount() public view returns {}
+    function getTransactionCount() public view returns (uint256) {
+        // 
+    }
 
 }
