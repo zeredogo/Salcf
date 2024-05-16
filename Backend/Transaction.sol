@@ -21,7 +21,7 @@ contract Transaction {
 
     }
 
-    function getAllTransaction() public view returns (Tr) {}
+    function getAllTransaction() public view returns (Transact) {}
     function addToBlockchain() public {}
 
 }
